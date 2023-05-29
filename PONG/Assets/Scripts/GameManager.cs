@@ -9,8 +9,8 @@ public class GameManager : MonoBehaviour
     public int playerScore = 0; // Player's score
     public int computerScore = 0; // Computer's score
     public int winScore = 5;
-    public Text playerScoreText; // Reference to UI text element that displays player's score
-    public Text computerScoreText; // Reference to UI text element that displays computer's score
+    public TMP_Text playerScoreText; // Reference to UI text element that displays player's score
+    public TMP_Text computerScoreText; // Reference to UI text element that displays computer's score
 
     public TMP_Text WinText;
     public bool gameOver = false;
