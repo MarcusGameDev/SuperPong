@@ -54,19 +54,25 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\2D Topdown Movement\TopDownPlayerController.cs" />
-    <Compile Include="Assets\Collision2D.cs" />
+    <Compile Include="Assets\2d Example Scripts\Collision2D.cs" />
     <Compile Include="Assets\Scripts\PowerupSpawner.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\PaddleController.cs" />
-    <Compile Include="Assets\Trigger2D.cs" />
+    <Compile Include="Assets\2d Example Scripts\Trigger2D.cs" />
     <Compile Include="Assets\Scripts\Rotate.cs" />
     <Compile Include="Assets\Scripts\Powerup.cs" />
     <Compile Include="Assets\Scripts\AIController.cs" />
     <Compile Include="Assets\Scripts\Powerups\SizeBall_Powerup.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\2d Example Scripts\turningPlayer2D.cs" />
     <Compile Include="Assets\Scripts\Powerups\InvisibleBall_PowerUp.cs" />
-    <Compile Include="Assets\player2D.cs" />
+    <Compile Include="Assets\2d Example Scripts\player2D.cs" />
     <Compile Include="Assets\Scripts\PaddlePiece.cs" />
     <Compile Include="Assets\Scripts\BallController.cs" />
+    <Compile Include="Assets\Scripts\Events Tutorials\TestingEvents.cs" />
+    <Compile Include="Assets\Scripts\Events Tutorials\TestingScriptsSubscriber.cs" />
+    <Compile Include="Assets\Scripts\Events Tutorials\UnityKeyEvent.cs" />
+    <Compile Include="Assets\Scripts\Events Tutorials\KeyListener.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

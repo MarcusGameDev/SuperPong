@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-
+using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public int playerScore = 0; // Player's score
@@ -31,7 +31,8 @@ public class GameManager : MonoBehaviour
         }
         if (gameOver == true && Input.GetKeyDown(KeyCode.Space))
         {
-            ResetGame();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+          //  ResetGame();
         }
     }
 

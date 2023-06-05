@@ -16,6 +16,7 @@ public class BallController : MonoBehaviour
 
     private float xDirection; // Horizontal direction of the ball (left or right)
     private float yDirection; // Vertical direction of the ball (up or down)
+    private Transform ballTrans;
 
    // public float BallHeightLimit = 5;
 
@@ -30,6 +31,7 @@ public class BallController : MonoBehaviour
     private void Awake()
     {
         originalSpeed = speed;
+        ballTrans = transform;
     }
 
     // Start is called before the first frame update
@@ -66,6 +68,7 @@ public class BallController : MonoBehaviour
         xDirection = Random.Range(0.25f, 1f);
         yDirection = Random.Range(-1f, 1f);
         ballPossession = BallPossession.None;
+        transform.localScale = new Vector3 (1,1,1);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
